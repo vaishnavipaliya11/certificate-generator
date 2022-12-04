@@ -1,0 +1,48 @@
+.cerificate-details-display {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  opacity: 0.8;
+  padding: 2rem;
+  text-align: center;
+}
+.common-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.common-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-container {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/572/458/476/grey-abstract-geometric-triangle-background-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  background-size: cover;
+}
+.excellence span {
+  font-style: italic;
+}
+.excellence {
+  align-items: flex-start;
+}
+#username {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.logo {
+  max-width: 2rem;
+  max-height: 2rem;
+  margin-right: 0.5rem;
+}
