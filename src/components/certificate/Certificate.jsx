@@ -18,11 +18,11 @@ const Certificate = () => {
           <div>
             <h1 id="username">John Snow</h1>
           </div>
-          <div>
+          <div className="graduating-from">
             <p>For graduating from</p>
             <h3>Code like a Girl</h3>
           </div>
-          <div>
+          <div className="desc">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Temporibus fugiat, non enim distinctio a sed, porro modi unde,
