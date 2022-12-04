@@ -1,13 +1,7 @@
-import { Certificate } from "./components/certificate/Certificate";
-
+import { AllRoutes } from "./Routes/AllRoutes";
 
 function App() {
-  return (
-    <div className="App">
-   
-      <Certificate/> 
-    </div>
-  );
+  return <AllRoutes/>
 }
 
 export default App;
