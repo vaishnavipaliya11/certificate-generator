@@ -71,7 +71,7 @@ function DataTable() {
           <TableRow>
             <TableCell sx={{ fontWeight: "bold" }}>Candidate ID</TableCell>
             <TableCell sx={{ fontWeight: "bold" }} align="center">Name</TableCell>
-            <TableCell sx={{ fontWeight: "bold" }} align="center">Interaction ID/Response&nbsp;</TableCell>
+            <TableCell sx={{ fontWeight: "bold" }} align="center">Interaction ID &nbsp;</TableCell>
             <TableCell sx={{ fontWeight: "bold" }} align="center">Certificate&nbsp;</TableCell>
           </TableRow>
         </TableHead>

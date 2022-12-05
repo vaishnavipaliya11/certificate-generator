@@ -1,4 +1,4 @@
-import { Certificate } from "../../Components";
+// import { Certificate } from "../../Components";
 import { useParams } from "react-router-dom";
 import { Button } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
@@ -7,6 +7,7 @@ import { Box } from "@mui/system";
 import { useRef } from "react";
 import Pdf from "react-to-pdf";
 import { useNavigate } from "react-router-dom";
+import {Certificate} from "../../Components/certificate/Certificate"
 
 export const CertificatePage = () => {
   const { candidateName } = useParams();
@@ -34,7 +35,8 @@ export const CertificatePage = () => {
         <Pdf
           targetRef={certificateRef}
           filename={`${candidateName}.pdf`}
-          options={{ backgroundColor: "red", orientation: "landscape" }}
+          options={{ background: "red",
+           orientation: "landscape"}}
           scale={1}
           x={-42}
           y={0}
