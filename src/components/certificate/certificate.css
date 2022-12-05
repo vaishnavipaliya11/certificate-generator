@@ -49,6 +49,12 @@
 .graduating-from h3{
     margin: 5px;
 }
+.graduating-from p{
+  margin: 0;
+  padding: 0;
+}
 .desc{
     margin-top: 2rem;
 }
+
+

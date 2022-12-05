@@ -9,6 +9,9 @@ import Paper from "@mui/material/Paper";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 
+
+
+
 const rows = [
   {
     id: "890875",
@@ -65,8 +68,12 @@ function DataTable() {
   };
 
   return (
+  
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+     
+      <Table  sx={{minWidth:{
+        xs:100, sm:300, md:200, lg:200 , xl:800
+      }}} aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell sx={{ fontWeight: "bold" }}>Candidate ID</TableCell>
@@ -86,6 +93,9 @@ function DataTable() {
               <TableCell align="center">
                 <Button
                   variant="contained"
+                  sx={{fontSize:{
+                    xs:8, sm:10, md:14, lg:14 , xl:16
+                  }}}
                   onClick={() => navigateToCertificate(row.name.replaceAll(" ", "_"))}
                 >
                   View Certificate
