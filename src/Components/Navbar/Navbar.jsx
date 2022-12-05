@@ -30,6 +30,7 @@ function Navbar() {
         backgroundColor: "white",
         color: "black",
         boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px;",
+        position:"sticky", top:0,zIndex:10
       }}
       position="static"
     >

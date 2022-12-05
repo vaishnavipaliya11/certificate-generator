@@ -98,7 +98,7 @@ function DataTable() {
                   }}}
                   onClick={() => navigateToCertificate(row.name.replaceAll(" ", "_"))}
                 >
-                  View Certificate
+                  View 
                 </Button>
               </TableCell>
             </TableRow>
